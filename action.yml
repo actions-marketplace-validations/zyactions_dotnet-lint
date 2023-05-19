@@ -88,7 +88,7 @@ runs:
         echo "::add-matcher::${{ github.action_path }}/problem-matcher.json"
 
     - name: .NET Lint
-      uses: zyactions/dotnet-format@36814a884879e7dafb9c74df549777e7297659c2 # v1.0.0
+      uses: zyactions/dotnet-format@059ebd22ce2c9b54ee5efc30e65dde422547dadf # v1.1.0
       with:
         workspace: ${{ inputs.workspace }}
         diagnostics: ${{ inputs.diagnostics }}
